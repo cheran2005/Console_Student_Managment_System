@@ -1,0 +1,14 @@
+N:\c sharp grind\Assingment1\bin\Debug\net10.0\Assingment1.exe
+N:\c sharp grind\Assingment1\bin\Debug\net10.0\Assingment1.deps.json
+N:\c sharp grind\Assingment1\bin\Debug\net10.0\Assingment1.runtimeconfig.json
+N:\c sharp grind\Assingment1\bin\Debug\net10.0\Assingment1.dll
+N:\c sharp grind\Assingment1\bin\Debug\net10.0\Assingment1.pdb
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.GeneratedMSBuildEditorConfig.editorconfig
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.AssemblyInfoInputs.cache
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.AssemblyInfo.cs
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.csproj.CoreCompileInputs.cache
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.dll
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\refint\Assingment1.dll
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.pdb
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.genruntimeconfig.cache
+N:\c sharp grind\Assingment1\obj\Debug\net10.0\ref\Assingment1.dll
