@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "N:\\c sharp grind\\Assingment1\\Assingment1.csproj": {}
+    "C:\\WORKFLOW\\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\\Assingment1.csproj": {}
   },
   "projects": {
-    "N:\\c sharp grind\\Assingment1\\Assingment1.csproj": {
+    "C:\\WORKFLOW\\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\\Assingment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\c sharp grind\\Assingment1\\Assingment1.csproj",
+        "projectUniqueName": "C:\\WORKFLOW\\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\\Assingment1.csproj",
         "projectName": "Assingment1",
-        "projectPath": "N:\\c sharp grind\\Assingment1\\Assingment1.csproj",
+        "projectPath": "C:\\WORKFLOW\\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\\Assingment1.csproj",
         "packagesPath": "C:\\Users\\chera\\.nuget\\packages\\",
-        "outputPath": "N:\\c sharp grind\\Assingment1\\obj\\",
+        "outputPath": "C:\\WORKFLOW\\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chera\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

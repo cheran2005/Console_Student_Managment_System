@@ -12,3 +12,17 @@ N:\c sharp grind\Assingment1\obj\Debug\net10.0\refint\Assingment1.dll
 N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.pdb
 N:\c sharp grind\Assingment1\obj\Debug\net10.0\Assingment1.genruntimeconfig.cache
 N:\c sharp grind\Assingment1\obj\Debug\net10.0\ref\Assingment1.dll
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.AssemblyInfoInputs.cache
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.AssemblyInfo.cs
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.csproj.CoreCompileInputs.cache
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.dll
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\refint\Assingment1.dll
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.pdb
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\bin\Debug\net10.0\Assingment1.exe
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\bin\Debug\net10.0\Assingment1.deps.json
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\bin\Debug\net10.0\Assingment1.runtimeconfig.json
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\bin\Debug\net10.0\Assingment1.dll
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\bin\Debug\net10.0\Assingment1.pdb
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\Assingment1.genruntimeconfig.cache
+C:\WORKFLOW\CONSOLE_SCHOOL_MANAGEMENT_SYSTEM\obj\Debug\net10.0\ref\Assingment1.dll

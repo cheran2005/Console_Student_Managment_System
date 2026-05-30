@@ -12,6 +12,28 @@ namespace SchoolApp.Models
         //[Student Id] = list of enrollments
         private Dictionary<int, List<Enrollment>> Enrollments = new Dictionary<int , List<Enrollment>>();
 
+        //So When user makes a new student, the id gets incremented by 1 and assigned to new student.
+        //Same with GetLatestCourseid for new courses.
+        public int GetLatestStudentid()
+        {
+            if (Students.Count == 0)
+            {
+                return 0;
+            }
+            int id = Students.Max(Student => Student.Studentid) + 1;
+            return id;
+        }
+        public int GetLatestCourseid()
+        {
+            if (Courses.Count == 0)
+            {
+                return 0;
+            }
+
+            int id = Courses.Max(Course => Course.Courseid) + 1;
+            return id;
+        }
+        
         public void AddStudent(string name)
         {
             
@@ -29,26 +51,6 @@ namespace SchoolApp.Models
             return;
         }
 
-        public int GetLatestStudentid()
-        {
-            if (Students.Count == 0)
-            {
-                return 0;
-            }
-            int id = Students.Max(Student => Student.Studentid) + 1;
-            return id;
-        }
-
-        public int GetLatestCourseid()
-        {
-            if (Courses.Count == 0)
-            {
-                return 0;
-            }
-
-            int id = Courses.Max(Course => Course.Courseid) + 1;
-            return id;
-        }
 
         public void EnrollCourse(int Courseid,int Studentid)
         {
@@ -93,6 +95,7 @@ namespace SchoolApp.Models
                     return;
                 }
                 AssignEnrollment.ChangeGrade(Grade);
+                UpdateStudentAverage(Studentid);
 
                 Console.WriteLine("\nGrade Successfully Assigned");
                 return;
@@ -107,11 +110,13 @@ namespace SchoolApp.Models
 
         public void GetStudents()
         {
+            List<Student> OrderedStudent = Students.OrderByDescending(student => student.Average).ToList();
+
             Console.WriteLine("\n\n ---------------------------Students In The System -------------------------\n");
-            for (int i = 0; i< Students.Count ; i++)
+            for (int i = 0; i< OrderedStudent.Count ; i++)
             {
                 
-                Console.WriteLine("\nName: " + Students[i].Name + "     Student Id: "+ Students[i].Studentid);
+                Console.WriteLine("\nName: " + OrderedStudent[i].Name + "     Student Id: "+ OrderedStudent[i].Studentid + " Average: "+ OrderedStudent[i].Average);
             }
             return;
         }
@@ -141,6 +146,11 @@ namespace SchoolApp.Models
                 AverageGrade += Enrollments[Studentid][i].Grade;
             }
             Student? student = Students.FirstOrDefault(Student => Student.Studentid == Studentid);
+            if (student == null)
+            {
+                Console.WriteLine("\nStudent Does Not Exist.");
+                return;
+            }
             student.editAverage(AverageGrade/Enrollments[Studentid].Count);
         }
         
@@ -157,7 +167,7 @@ namespace SchoolApp.Models
             Console.WriteLine("\n\n --- "+student.Name+" Enrolled Courses  ---");
             if (Enrollments.ContainsKey(Studentid))
             {
-
+                
                 
                 for (int i =0 ; i< Enrollments[Studentid].Count ; i++)
                 {
@@ -167,13 +177,21 @@ namespace SchoolApp.Models
                     "  Teacher: " + Enrollments[Studentid][i].Course.Teacher +
                     " Grade: " + Enrollments[Studentid][i].Grade);
 
+                    if (Enrollments[Studentid][i].Grade == 0)
+                    {
+                        Console.WriteLine("Status: Grade Not Assigned");
+                    }
 
-                    
+                    else if (Enrollments[Studentid][i].Grade>= 50)
+                    {
+                        Console.WriteLine("Status: Grade Passed");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Status: Grade Failed");
+                    }
 
                 }
-
-                Console.WriteLine("\nAverage Grade: " + AverageGrade/Enrollments[Studentid].Count);
-                
             }
 
             else
